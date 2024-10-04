@@ -1,0 +1,28 @@
+{
+  "name": "seriesmega-bypasser",
+  "version": "1.0.0",
+  "description": "Permite saltar los anuncios para ver y descargar contendio en SeriesMega.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "path": "^0.12.7",
+    "fs": "^0.0.2",
+    "luxon": "^3.5.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://seriesmega-bypasser.glitch.me/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}

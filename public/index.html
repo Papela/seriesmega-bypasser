@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="description" content="Una web para omitir los anuncios a la hora de usar SeriesMega." />
+    <meta name="keywords" content="SeriesMega, MegaSeries, Bypass, adbypass, shorterbypass" />
+    <title>SeriesMega Bypasser</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="opensearch.php.xml" title="Bypass SeriesMega">
+    <link rel="stylesheet" href="style.css" />
+    <script src="bypass.js"></script>
+    <script src="opensearch.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>SeriesMega Bypasser</h1>
+      </div>
+      <div class="search-bar">
+        <input
+          id="inputBusqueda"
+          type="url"
+          placeholder="https://seriesmega.org/episodes/soy-georgina-3x3/"
+        />
+        <button id="btnBuscar" onclick="buscar(inputBusqueda.value)">
+          Buscar
+        </button>
+      </div>
+      <div id="resultadoError"></div>
+      <div class="links" id="links">
+      </div>
+    </div>
+  </body>
+</html>
